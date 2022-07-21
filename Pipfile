@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-socketio = "*"
+aiohttp = "*"
+flask = "*"
+flask-socketio = "*"
+flask-cors = "*"
+gevent = "*"
+gevent-websocket = "*"
+eventlet = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
